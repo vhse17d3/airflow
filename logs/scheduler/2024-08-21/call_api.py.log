@@ -1,0 +1,14 @@
+[2024-08-21T01:39:11.457+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:11.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-21T01:39:11.464+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:11.463+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:11.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:11.548+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:11.547+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-21T01:39:11.598+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:11.597+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-21T00:00:00+00:00, run_after=2024-08-22T00:00:00+00:00
+[2024-08-21T01:39:11.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.186 seconds
+[2024-08-21T01:39:41.853+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:41.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-21T01:39:41.859+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:41.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:41.890+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-21T01:39:41.929+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:41.929+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-21T01:39:42.023+0000] {logging_mixin.py:154} INFO - [2024-08-21T01:39:42.023+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-21T00:00:00+00:00, run_after=2024-08-22T00:00:00+00:00
+[2024-08-21T01:39:42.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.215 seconds

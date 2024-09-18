@@ -1,0 +1,29 @@
+[2024-08-04T10:07:10.774+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: excel_to_oracle_dag.load_excel_to_oracle manual__2024-08-04T10:07:08.790923+00:00 [queued]>
+[2024-08-04T10:07:10.793+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: excel_to_oracle_dag.load_excel_to_oracle manual__2024-08-04T10:07:08.790923+00:00 [queued]>
+[2024-08-04T10:07:10.794+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-08-04T10:07:10.810+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_excel_to_oracle> on 2024-08-04 10:07:08.790923+00:00
+[2024-08-04T10:07:10.817+0000] {standard_task_runner.py:57} INFO - Started process 105 to run task
+[2024-08-04T10:07:10.820+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'excel_to_oracle_dag', 'load_excel_to_oracle', 'manual__2024-08-04T10:07:08.790923+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/excel_to_oracle_dag.py', '--cfg-path', '/tmp/tmpmdk71yoc']
+[2024-08-04T10:07:10.821+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask load_excel_to_oracle
+[2024-08-04T10:07:10.869+0000] {task_command.py:416} INFO - Running <TaskInstance: excel_to_oracle_dag.load_excel_to_oracle manual__2024-08-04T10:07:08.790923+00:00 [running]> on host 2a28ac0f4835
+[2024-08-04T10:07:10.943+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='excel_to_oracle_dag' AIRFLOW_CTX_TASK_ID='load_excel_to_oracle' AIRFLOW_CTX_EXECUTION_DATE='2024-08-04T10:07:08.790923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-04T10:07:08.790923+00:00'
+[2024-08-04T10:07:10.955+0000] {base.py:73} INFO - Using connection ID 'Connection_bai_test' for task execution.
+[2024-08-04T10:07:11.000+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/excel_to_oracle_dag.py", line 49, in load_excel_to_oracle
+    excel_data = pd.ExcelFile(file_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1496, in __init__
+    ext = inspect_excel_format(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1371, in inspect_excel_format
+    with get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/KPI_Template.xlsx'
+[2024-08-04T10:07:11.011+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=excel_to_oracle_dag, task_id=load_excel_to_oracle, execution_date=20240804T100708, start_date=20240804T100710, end_date=20240804T100711
+[2024-08-04T10:07:11.024+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 19 for task load_excel_to_oracle ([Errno 2] No such file or directory: '/opt/airflow/data/KPI_Template.xlsx'; 105)
+[2024-08-04T10:07:11.073+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-08-04T10:07:11.097+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

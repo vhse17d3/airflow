@@ -1,0 +1,372 @@
+[2024-08-05T20:48:09.653+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:09.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:48:09.658+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:09.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:09.698+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:09.691+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:48:09.700+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:09.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.085 seconds
+[2024-08-05T20:48:40.013+0000] {processor.py:157} INFO - Started process (PID=123) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:40.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:48:40.017+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:40.017+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:40.032+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:40.029+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:48:40.032+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:40.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.051 seconds
+[2024-08-05T20:48:41.360+0000] {processor.py:157} INFO - Started process (PID=130) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:41.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:48:41.363+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:41.362+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:41.383+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:48:41.380+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:48:41.383+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:48:41.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.042 seconds
+[2024-08-05T20:49:11.581+0000] {processor.py:157} INFO - Started process (PID=199) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:11.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:49:11.583+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:49:11.583+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:11.596+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:49:11.594+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:49:11.596+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:11.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.045 seconds
+[2024-08-05T20:49:41.725+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:41.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:49:41.728+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:49:41.728+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:41.743+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:49:41.740+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:49:41.743+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:49:41.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.039 seconds
+[2024-08-05T20:50:12.308+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:12.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:50:12.315+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:50:12.315+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:12.336+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:50:12.331+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:50:12.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:12.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.067 seconds
+[2024-08-05T20:50:34.312+0000] {processor.py:157} INFO - Started process (PID=396) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:34.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:50:34.314+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:50:34.314+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:34.335+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:50:34.332+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:50:34.336+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:50:34.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.044 seconds
+[2024-08-05T20:51:04.551+0000] {processor.py:157} INFO - Started process (PID=470) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:04.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:51:04.554+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:04.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:04.570+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:04.567+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 24, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:51:04.571+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:04.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.051 seconds
+[2024-08-05T20:51:06.580+0000] {processor.py:157} INFO - Started process (PID=471) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:06.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:51:06.582+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:06.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:06.729+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.729+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-08-05T20:51:06.741+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.740+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-08-05T20:51:06.748+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.748+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-08-05T20:51:06.749+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.749+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T20:51:06.761+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.760+0000] {dag.py:2963} INFO - Creating ORM DAG for fetch_weather_data
+[2024-08-05T20:51:06.773+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:06.773+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T20:51:06.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.342 seconds
+[2024-08-05T20:51:37.063+0000] {processor.py:157} INFO - Started process (PID=537) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:37.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:51:37.066+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:37.066+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:37.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:51:37.117+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:37.117+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T20:51:37.152+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:51:37.152+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T20:51:37.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.122 seconds
+[2024-08-05T20:52:07.495+0000] {processor.py:157} INFO - Started process (PID=611) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:07.496+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:52:07.498+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:07.498+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:07.510+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:07.528+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:07.527+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T20:52:07.549+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:07.548+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T20:52:07.566+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.073 seconds
+[2024-08-05T20:52:28.329+0000] {processor.py:157} INFO - Started process (PID=677) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:28.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:52:28.332+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:28.332+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:28.351+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:28.348+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/call_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/call_api.py", line 25, in <module>
+    fetch_weather_data = SimpleHttpOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/operators/http.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 794, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to SimpleHttpOperator (task_id: fetch_weather_data). Invalid arguments were:
+**kwargs: {'xcom_push': True}
+[2024-08-05T20:52:28.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:28.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.053 seconds
+[2024-08-05T20:52:37.391+0000] {processor.py:157} INFO - Started process (PID=678) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:37.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T20:52:37.394+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:37.394+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:37.422+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T20:52:37.450+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:37.450+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T20:52:37.475+0000] {logging_mixin.py:154} INFO - [2024-08-05T20:52:37.475+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T20:52:37.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.134 seconds
+[2024-08-05T23:14:55.396+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:14:55.397+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:14:55.401+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:14:55.401+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:14:55.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:14:55.469+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:14:55.469+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:14:55.499+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:14:55.499+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:14:55.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.132 seconds
+[2024-08-05T23:15:25.768+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:25.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:15:25.772+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:25.772+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:25.791+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:25.810+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:25.810+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:15:25.836+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:25.836+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:15:25.867+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.103 seconds
+[2024-08-05T23:15:56.482+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:56.483+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:15:56.485+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:56.484+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:56.497+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:15:56.513+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:56.513+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:15:56.534+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:15:56.534+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:15:56.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.075 seconds
+[2024-08-05T23:16:26.658+0000] {processor.py:157} INFO - Started process (PID=262) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:26.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:16:26.661+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:26.661+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:26.675+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:26.695+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:26.695+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:16:26.719+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:26.719+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:16:26.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.093 seconds
+[2024-08-05T23:16:56.981+0000] {processor.py:157} INFO - Started process (PID=328) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:56.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:16:56.985+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:56.985+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:56.999+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:16:57.020+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:57.019+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:16:57.043+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:16:57.042+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:16:57.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.095 seconds
+[2024-08-05T23:17:27.247+0000] {processor.py:157} INFO - Started process (PID=394) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:27.248+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:17:27.250+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:27.250+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:27.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:27.292+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:27.291+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:17:27.320+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:27.319+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:17:27.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.099 seconds
+[2024-08-05T23:17:57.525+0000] {processor.py:157} INFO - Started process (PID=468) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:57.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:17:57.528+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:57.528+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:57.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:17:57.555+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:57.555+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:17:57.575+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:17:57.574+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:17:57.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.067 seconds
+[2024-08-05T23:18:27.829+0000] {processor.py:157} INFO - Started process (PID=534) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:27.830+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:18:27.833+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:27.832+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:27.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:27.863+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:27.863+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:18:27.885+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:27.885+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:18:27.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.077 seconds
+[2024-08-05T23:18:58.254+0000] {processor.py:157} INFO - Started process (PID=608) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:58.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:18:58.257+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:58.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:58.268+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:18:58.284+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:58.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:18:58.303+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:18:58.303+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:18:58.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.067 seconds
+[2024-08-05T23:19:28.736+0000] {processor.py:157} INFO - Started process (PID=674) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:28.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:19:28.739+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:28.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:28.752+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:28.768+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:28.768+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:19:28.788+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:28.788+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:19:28.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.072 seconds
+[2024-08-05T23:19:59.119+0000] {processor.py:157} INFO - Started process (PID=748) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:59.120+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:19:59.121+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:59.121+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:59.133+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:19:59.148+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:59.148+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:19:59.168+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:19:59.168+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:19:59.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.072 seconds
+[2024-08-05T23:20:29.231+0000] {processor.py:157} INFO - Started process (PID=814) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:29.232+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:20:29.234+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:29.233+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:29.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:29.262+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:29.262+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:20:29.282+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:29.281+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:20:29.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.068 seconds
+[2024-08-05T23:20:59.874+0000] {processor.py:157} INFO - Started process (PID=888) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:59.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:20:59.878+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:59.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:59.893+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:20:59.913+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:59.912+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:20:59.937+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:20:59.937+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:20:59.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.089 seconds
+[2024-08-05T23:21:30.573+0000] {processor.py:157} INFO - Started process (PID=954) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:21:30.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:21:30.576+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:21:30.576+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:21:30.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:21:30.605+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:21:30.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:21:30.626+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:21:30.626+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:21:30.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.084 seconds
+[2024-08-05T23:22:00.731+0000] {processor.py:157} INFO - Started process (PID=1028) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:00.732+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:22:00.734+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:00.734+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:00.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:00.765+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:00.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:22:00.787+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:00.787+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:22:00.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.088 seconds
+[2024-08-05T23:22:31.065+0000] {processor.py:157} INFO - Started process (PID=1094) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:31.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:22:31.068+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:31.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:31.080+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:22:31.100+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:31.100+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:22:31.125+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:22:31.125+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:22:31.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.079 seconds
+[2024-08-05T23:23:01.407+0000] {processor.py:157} INFO - Started process (PID=1168) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:01.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:23:01.410+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:01.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:01.423+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:01.440+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:01.440+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:23:01.463+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:01.463+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:23:01.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.079 seconds
+[2024-08-05T23:23:32.093+0000] {processor.py:157} INFO - Started process (PID=1234) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:32.093+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:23:32.095+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:32.095+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:32.107+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:23:32.123+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:32.123+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:23:32.143+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:23:32.143+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:23:32.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.070 seconds
+[2024-08-05T23:24:02.833+0000] {processor.py:157} INFO - Started process (PID=1308) to work on /opt/airflow/dags/call_api.py
+[2024-08-05T23:24:02.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-05T23:24:02.842+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:24:02.841+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-05T23:24:02.880+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-05T23:24:02.945+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:24:02.944+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-05T23:24:02.994+0000] {logging_mixin.py:154} INFO - [2024-08-05T23:24:02.994+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-06T00:00:00+00:00, run_after=2024-08-07T00:00:00+00:00
+[2024-08-05T23:24:03.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.203 seconds

@@ -1,0 +1,28 @@
+[2024-08-20T06:00:05.418+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:05.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-20T06:00:05.421+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:05.421+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:05.439+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:05.464+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:05.463+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-20T06:00:05.488+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:05.488+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-20T00:00:00+00:00, run_after=2024-08-21T00:00:00+00:00
+[2024-08-20T06:00:05.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.093 seconds
+[2024-08-20T06:00:35.779+0000] {processor.py:157} INFO - Started process (PID=126) to work on /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:35.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-20T06:00:35.782+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:35.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:35.795+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-20T06:00:35.812+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:35.812+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-20T06:00:35.838+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:00:35.838+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-20T00:00:00+00:00, run_after=2024-08-21T00:00:00+00:00
+[2024-08-20T06:00:35.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.093 seconds
+[2024-08-20T06:01:06.011+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/call_api.py
+[2024-08-20T06:01:06.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-20T06:01:06.014+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:01:06.014+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-20T06:01:06.029+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-20T06:01:06.049+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:01:06.049+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-20T06:01:06.074+0000] {logging_mixin.py:154} INFO - [2024-08-20T06:01:06.074+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-20T00:00:00+00:00, run_after=2024-08-21T00:00:00+00:00
+[2024-08-20T06:01:06.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.103 seconds
+[2024-08-20T22:32:26.093+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/call_api.py
+[2024-08-20T22:32:26.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/call_api.py for tasks to queue
+[2024-08-20T22:32:26.098+0000] {logging_mixin.py:154} INFO - [2024-08-20T22:32:26.097+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/call_api.py
+[2024-08-20T22:32:26.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['fetch_weather_data']) retrieved from /opt/airflow/dags/call_api.py
+[2024-08-20T22:32:26.151+0000] {logging_mixin.py:154} INFO - [2024-08-20T22:32:26.150+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-20T22:32:26.192+0000] {logging_mixin.py:154} INFO - [2024-08-20T22:32:26.191+0000] {dag.py:3722} INFO - Setting next_dagrun for fetch_weather_data to 2024-08-20T00:00:00+00:00, run_after=2024-08-21T00:00:00+00:00
+[2024-08-20T22:32:26.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/call_api.py took 0.138 seconds

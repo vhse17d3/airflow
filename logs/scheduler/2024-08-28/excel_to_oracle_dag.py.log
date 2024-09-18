@@ -1,0 +1,56 @@
+[2024-08-28T03:16:09.248+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:09.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:16:09.253+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:09.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:10.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:10.477+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:10.477+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:16:10.500+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:10.500+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:16:10.521+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 1.276 seconds
+[2024-08-28T03:16:40.730+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:40.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:16:40.733+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:40.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:41.156+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:16:41.172+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:41.171+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:16:41.192+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:16:41.191+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:16:41.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.480 seconds
+[2024-08-28T03:17:11.622+0000] {processor.py:157} INFO - Started process (PID=206) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:11.623+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:17:11.626+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:11.625+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:12.051+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:12.067+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:12.066+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:17:12.088+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:12.088+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:17:12.106+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.486 seconds
+[2024-08-28T03:17:42.261+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:42.262+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:17:42.264+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:42.264+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:42.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:17:42.779+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:42.778+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:17:42.807+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:17:42.806+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:17:42.833+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.576 seconds
+[2024-08-28T03:18:12.943+0000] {processor.py:157} INFO - Started process (PID=349) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:12.943+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:18:12.945+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:12.945+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:13.367+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:13.381+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:13.381+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:18:13.401+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:13.401+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:18:13.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.488 seconds
+[2024-08-28T03:18:43.600+0000] {processor.py:157} INFO - Started process (PID=423) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:43.601+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:18:43.603+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:43.603+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:44.095+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:18:44.111+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:44.110+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:18:44.131+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:18:44.131+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:18:44.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.550 seconds
+[2024-08-28T03:19:14.207+0000] {processor.py:157} INFO - Started process (PID=488) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:14.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:19:14.210+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:14.209+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:14.615+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:14.629+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:14.628+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:19:14.651+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:14.651+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:19:14.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.462 seconds
+[2024-08-28T03:19:44.792+0000] {processor.py:157} INFO - Started process (PID=556) to work on /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:44.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/excel_to_oracle_dag.py for tasks to queue
+[2024-08-28T03:19:44.795+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:44.795+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:45.250+0000] {processor.py:839} INFO - DAG(s) dict_keys(['excel_to_oracle_dag']) retrieved from /opt/airflow/dags/excel_to_oracle_dag.py
+[2024-08-28T03:19:45.267+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:45.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-28T03:19:45.303+0000] {logging_mixin.py:154} INFO - [2024-08-28T03:19:45.302+0000] {dag.py:3722} INFO - Setting next_dagrun for excel_to_oracle_dag to 2024-08-27T10:00:00+00:00, run_after=2024-08-28T10:00:00+00:00
+[2024-08-28T03:19:45.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/excel_to_oracle_dag.py took 0.553 seconds

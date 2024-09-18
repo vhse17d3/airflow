@@ -1,0 +1,5 @@
+[2024-08-19T08:41:07.838+0000] {processor.py:157} INFO - Started process (PID=52) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2024-08-19T08:41:07.839+0000] {processor.py:829} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2024-08-19T08:41:07.841+0000] {logging_mixin.py:154} INFO - [2024-08-19T08:41:07.841+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2024-08-19T08:41:07.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_consumes_1_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1', 'dataset_produces_1', 'dataset_produces_2']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2024-08-19T08:41:07.906+0000] {logging_mixin.py:154} INFO - [2024-08-19T08:41:07.906+0000] {dag.py:2941} INFO - Sync 6 DAGs

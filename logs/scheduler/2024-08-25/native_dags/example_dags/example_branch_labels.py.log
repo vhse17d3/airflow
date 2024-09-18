@@ -1,0 +1,21 @@
+[2024-08-25T10:01:10.643+0000] {processor.py:157} INFO - Started process (PID=57) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:10.644+0000] {processor.py:829} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-08-25T10:01:10.646+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:10.646+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:10.654+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:10.678+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:10.677+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-25T10:01:10.699+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:10.699+0000] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-08-24T00:00:00+00:00, run_after=2024-08-25T00:00:00+00:00
+[2024-08-25T10:01:10.715+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.075 seconds
+[2024-08-25T10:01:41.682+0000] {processor.py:157} INFO - Started process (PID=131) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:41.683+0000] {processor.py:829} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-08-25T10:01:41.684+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:41.684+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:41.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:01:41.715+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:41.715+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-25T10:01:41.748+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:01:41.747+0000] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-08-24T00:00:00+00:00, run_after=2024-08-25T00:00:00+00:00
+[2024-08-25T10:01:41.771+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.092 seconds
+[2024-08-25T10:02:12.339+0000] {processor.py:157} INFO - Started process (PID=197) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:02:12.341+0000] {processor.py:829} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-08-25T10:02:12.343+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:02:12.343+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:02:12.358+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-08-25T10:02:12.394+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:02:12.394+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-08-25T10:02:12.423+0000] {logging_mixin.py:154} INFO - [2024-08-25T10:02:12.422+0000] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2024-08-24T00:00:00+00:00, run_after=2024-08-25T00:00:00+00:00
+[2024-08-25T10:02:12.446+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.110 seconds
